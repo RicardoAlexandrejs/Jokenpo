@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-image: url(./assets/785945.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -48,15 +48,15 @@ img {
 }
 
 #rock {
-    background: rgb(83, 1, 94);
+    background: rgb(152, 0, 1);
 }
 
 #paper {
-    background: rgb(2, 85, 53);
+    background: rgb(90, 93, 97);
 }
 
 #scissors {
-    background: rgb(23, 3, 138);
+    background: rgb(0, 51, 81);
 }
 
 p {
@@ -66,11 +66,11 @@ p {
 }
 
 .your-score span {
-    color: blue;
+    color: rgb(0, 51, 81);
 
 }
 
 .machine-score span {
-    color: rgb(150, 5, 138);
+    color: rgb(152, 0, 1);
 
 }

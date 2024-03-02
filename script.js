@@ -38,17 +38,17 @@ const playMachine = () => {
 const playTheGame = (human, machine) => {
     console.log("Humano escolheu: " + human + " Maquina escolheu: " + machine)
     if (human === machine) {
-        result.innerHTML = "Deus empate"
+        result.innerHTML = "Deu empate"
     } else if (
         human === GAME_OPTIONS.PAPER && machine == GAME_OPTIONS.ROCK ||
         human === GAME_OPTIONS.ROCK && machine == GAME_OPTIONS.SCISSORS ||
         human === GAME_OPTIONS.SCISSORS && machine == GAME_OPTIONS.PAPER) {
-        result.innerHTML = "Você ganhou"
+        result.innerHTML = " Você ganhou"
         humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
 
     } else {
-        result.innerHTML = "A Máquina ganhou"
+        result.innerHTML = "Seu adversário ganhou"
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
     }
